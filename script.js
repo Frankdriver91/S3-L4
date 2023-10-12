@@ -9,9 +9,12 @@ for (let i = 0; i < 76; i++) {
   tabellone.appendChild(celleNumeri);
 }
 
-const button = document.getElementById("estraiNumero");
-button.onclick = function getRndInteger(min, max) {
-  return Math.floor(Math.random() * 76);
+const estraiNumero = function () {
+  const numeroEstratto = Math.floor(Math.random() * 76);
+  return numeroEstratto;
 };
 
-console.log(button);
+const button = document.getElementById("estraiNumero");
+button.addEventListener("click", estraiNumero);
+
+console.log(estraiNumero);

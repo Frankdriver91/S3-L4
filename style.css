@@ -1,0 +1,26 @@
+body {
+  background-color: darkgreen;
+  text-align: center;
+}
+
+h1 {
+  background-color: brown;
+}
+
+#estraiNumero {
+  background-color: blue;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+}
+
+h4 {
+  background-color: rgb(218, 255, 69);
+  color: rgb(1, 1, 0);
+  display: block;
+  padding: 10px;
+  border-radius: 10rem;
+  font-weight: bold;
+  font-size: large;
+}
